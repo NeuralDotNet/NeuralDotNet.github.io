@@ -94,7 +94,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: url("../../images/bg.png");
+		background-image:linear-gradient(to top, black, transparent),url("../../images/bg.png");
 		background-attachment: fixed, fixed;
 		background-position: center, center;
 	}
@@ -235,9 +235,6 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 		color : white;
-	}
-	p span { 
-    	background-color: black; 
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3426,7 +3423,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: url("../../images/bg.png");
+				background-image:linear-gradient(to top, black, transparent),url("../../images/bg.png");
 				background-position: center, center;
 				margin-bottom: -6.5em;
 			}
@@ -3535,7 +3532,7 @@ input, select, textarea {
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
-			background-image: url("../../images/bg.png");
+			background-image:linear-gradient(to top, black, transparent),url("../../images/bg.png");
 			background-position: center, 0% 30%;
 			margin-bottom: -6.5em;
 		}
@@ -4022,7 +4019,7 @@ input, select, textarea {
 
 		#footer {
 			background-color: #2e3141;
-			background-image: url("../../images/bg.png");
+			background-image:linear-gradient(to top, black, transparent),url("../../images/bg.png");
 			background-position: center, center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
