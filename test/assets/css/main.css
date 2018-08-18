@@ -23,6 +23,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.edit:hover{
+    color:black;
+}
+.edit1 {
+    color:yellow;
+}
+
 body {
 	line-height: 1;
 }
