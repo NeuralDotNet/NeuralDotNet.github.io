@@ -4034,7 +4034,7 @@ input, select, textarea {
 			background-color: #2e3141;
 			background-image:linear-gradient(to top, transparent, black ,transparent),url("../../images/bg.png");
 			background-attachment: fixed, fixed;
-			background-position : center top;
+			background-position : center bottom;
 			}
 		@media screen and (max-width: 1280px) {
 
@@ -4042,7 +4042,7 @@ input, select, textarea {
 			background-color: #2e3141;
 			background-image:linear-gradient(to top, transparent, black ,transparent),url("../../images/bg.png");
 			background-attachment: fixed, fixed;
-			background-position : center top;
+			background-position : center bottom;
 		}
 
 	}
