@@ -4030,22 +4030,22 @@ input, select, textarea {
 				#footer .inner .copyright li a {
 					color: inherit;
 				}
-		#footer {
+
+
+	}
+	#footer {
 			background-color: #2e3141;
 			background-image:linear-gradient(to top, transparent, black ,transparent),url("../../images/bg.png");
 			background-attachment: fixed, fixed;
 			background-position : center bottom;
-			}
-		@media screen and (max-width: 1280px) {
-
+		}
+	@media screen and (max-width: 1280px) {
 		#footer {
 			background-color: #2e3141;
 			background-image:linear-gradient(to top, transparent, black ,transparent),url("../../images/bg.png");
 			background-attachment: fixed, fixed;
 			background-position : center bottom;
 		}
-
-	}
 
 	@media screen and (max-width: 980px) {
 
