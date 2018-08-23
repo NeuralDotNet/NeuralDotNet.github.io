@@ -4029,6 +4029,25 @@ input, select, textarea {
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
+		#footer .inner {
+				padding: 3em 3em 1em 3em ;
+				display: block;
+				width: 100%;
+			}
+
+				#footer .inner form {
+					width: 100%;
+					margin: 0 0 4em 0;
+				}
+
+				#footer .inner .contact {
+					width: 100%;
+					margin: 0 0 4em 0;
+				}
+
+				#footer .inner .copyright {
+					margin: 4em 0 2em 0;
+				}
 
 	}
 
