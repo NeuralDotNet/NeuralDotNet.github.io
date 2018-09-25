@@ -1,122 +1,164 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
-	<head>
-		<title>NeuralDotNet</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png" />
-	   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png" />
-	   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png" />
-	   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png" />
-	   <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png" />
-	   <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png" />
-	   <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
-	   <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" />
-	   <meta name="application-name" content="&nbsp;"/>
-	   <meta name="msapplication-TileColor" content="#FFFFFF" />
-	   <meta name="msapplication-TileImage" content="images/mstile-144x144.png" />
-	   <meta name="apple-mobile-web-app-status-bar-style" content="#1c1d26">
-	   <meta name="theme-color" content="#1c1d26">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+<head>
+	<title>Gazing with ML by NeuralDotNet</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="preload" href="images/bg.png" as="image" type="image/png">
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png" />
+	<link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="images/mstile-144x144.png" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+	<meta name="theme-color" content="#000000">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	
+	<style>
+	  * {
+	   margin: 0;
+	   padding: 0;
+	  }
+	  .imgbox {
+	   display: grid;
+	   height: 100%;
+	  }
+	  .center-fit {
+	   max-width: 100%;
+	   max-height: 100vh;
+	   margin: auto;
+	  }
+	  </style>
 	</head>
-	<body class="is-preload landing">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-                                        <h1 style=color: rgba(255, 255, 255, 0.75); id="logo">PhaseShift 2018 - ECE Department</h1>
+<body class="is-preload">
 
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Events</a>
-								<ul>
-                                    <li><a href="Espacio.html">Espacio Bidding</a></li>
-                                    <li><a href="FuryRoad.html">Fury Road v4.0</a></li>
-									<li><a href="ML.html">Gazing with ML</a></li>
-                                    <li><a href="MissingSpacecraft.html">Missing Spacecraft</a></li>
-									<li><a href="SpaceJunk.html">Space Junk</a></li>
-                                    <li><a href="SpacePellicule.html">Space Pellicule</a></li>			
-                                </ul>
-                                
-							</li>
-                            <li><a href="#">Workshops</a>
-                                <ul>
-                                    <li><a href="FekoWorkshop.html">FekoWorkshop</a></li>
-                                </ul></li>
-                            				
-						</ul>
-					</nav>
-				</header>
+	<!-- Page Wrapper -->
+	<div id="page-wrapper">
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>NeuralDotNet</h2>
-							<p>
-							Learning to teach machines to learn.</p>
-						</header>
-						<span class="image"><img src="images/competition1.png" alt="" /></span>
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<div class="logo">
+					<span class="icon fa-diamond"></span>
+				</div>
+				<h2>Gazing with ML</h2>
+				<p>A Machine Learning and Computer Vision event</p>
+			</div>
+		</section>
+
+		<!-- Wrapper -->
+		<section id="wrapper">
 
 			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img  src="images/bg.png" alt="" /></span>
+			<section id="one" class="wrapper spotlight style1">
+				<div class="inner">
 					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>Data is the new Oil. AI is the new Electricity. Who will build the Railroads?</h2>
-										<p>NeuralDotNet is a student research group focused on algorithms implementing artificial intelligence.</p>
-									</header>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>We pick up interesting papers to break them down and understand them thoroughly. Our aim is to learn and discover the models and practices used by cutting-edge research projects around the world.</p>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>We occasionally conduct sessions wherein we teach and implement concepts to acquaint newcomers to the field of data science.</p>
-								</div>
-							</div>
-						</div>
+						<h2 class="major">Overview</h2>
+						<!-- <h2 class="major"><b>Apply for Internships at Viga Studios: </b> <a href="http://vigastudios.com/internships" target="_blank" >http://vigastudios.com/internships</a></h2> -->
+						<p><b>Presentation: </b> <a href="http://bit.ly/neuraldotppt" target="_blank" >http://bit.ly/neuraldotppt</a></p>
+						<p><b>Ask Us Questions: </b> <a href="https://bit.ly/neuraldotq" target="_blank" >https://bit.ly/neuraldotq</a></p>
+						<p><b>Code - Introduction To Python: </b> <a href="https://bit.ly/neuraldotpython" target="_blank" >https://bit.ly/neuraldotpython</a></p>
+						<p><b>Code - Convolution: </b> <a href="https://bit.ly/neuraldotcon" target="_blank" >https://bit.ly/neuraldotcon</a></p>
+						<p><b>Code - MNIST: </b> <a href="https://bit.ly/neuraldotmnist" target="_blank" >https://bit.ly/neuraldotmnist</a></p>
+						<p><b>Kaggle Competition: </b> <a href="https://www.kaggle.com/t/69e57818d19d4397a0d421375e801c68" target="_blank" >http://bit.ly/neuraldotkaggle</a></p>
+						<p><b>Sample Python Notebook for Kaggle Competition </b> <a href="https://bit.ly/neuraldotsample" target="_blank" >https://bit.ly/neuraldotsample</a></p>
+						
+						
+						
+						<p>The teams will be taught the fundamentals of Machine Learning and Python programming in order to implement a handwriting recognition model. This includes the basics of image processing and using GPU enabled services like Google Colab. They will then be given a different dataset and compete in creating the best performing Machine Learning model with the tools previously taught.</p>
+						<h3>About Us</h3>
+						<p><b>Data is the new Oil. AI is the new Electricity. Who will build the Railroads?</b> NeuralDotNet is a student research group focused on algorithms implementing artificial intelligence. We pick up interesting papers to break them down and understand them thoroughly. Our aim is to learn and discover the models and practices used by cutting-edge research projects around the world. We occasionally conduct sessions wherein we teach and implement concepts to acquaint newcomers to the field of data science.</p>
+						
+						<h3>Competition Details</h3>
+						<p>With each passing day telescopes around and above the Earth capture more and more images of distant galaxies. As better and bigger telescopes continue to collect these images, the datasets begin to explode in size. In order to better understand how the different shapes of galaxies relate to the physics that create them, such images need to be sorted and classified.</p> 
+						
+						<div class="imgbox">
+						<p><img class="center-fit" src="https://kaggle2.blob.core.windows.net/competitions/kaggle/3175/media/mainimage.jpg" alt="Image Credit: ESA/Hubble & NASA"></p> 
+						</div>	
+							
+						<p>Galaxies in this set have already been classified once through the help of hundreds of thousands of volunteers, who collectively classified the shapes of these images by eye in a successful citizen science crowdsourcing project. However, this approach becomes less feasible as data sets grow to contain of hundreds of millions (or even billions) of galaxies. That's where you come in.</p>
+						<p>This competition asks you to analyze the JPG images of galaxies to find automated metrics that reproduce the probability distributions derived from human classifications. For each galaxy, determine the probability that it belongs in a particular class. Can you write an algorithm that behaves as well as the crowd does? </p>
+						
+						<!-- <a href="#" class="special">Learn more</a> -->
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
+				</div>
+			</section>
 
+			<!-- Two -->
+			<section id="two" class="wrapper alt spotlight style2">
+				<div class="inner">
+					<div class="content">
+							<h2 class="major">Round 1 - Hands-on Briefing Session</h2>
+							<p>Teams will be familiarized with fundamentals of Machine Learning and Python for ML through the implementation of a handwriting recognition model. </p>
+								<ul>
+								<li>Types of Learning : Supervised, Unsupervised, Reinforcement, Deep Learning etc. </li>
+								<li>Data Preprocessing : Image convolution, Slicing, Kernels etc. </li>
+								<li>Python Basics : Important libraries, Helper functions. </li>
+								<li>Implementation : Demo of a hand written number recognition model (Input - Image, Output - Label)</li>
+								</ul>
+						<!-- <a href="#" class="special">Learn more</a> -->
+					</div>
+				</div>
+			</section>
 
+			<!-- Three -->
+			<section id="three" class="wrapper spotlight style3">
+					<div class="inner">
+						<a href="#" class="image">
+							<abcd>
+							<img src="images/competition1.png" alt="" />
+							</abcd>
+						</a>
+					<div class="content">
+						<h2 class="major">Round 2 - Competition</h2>
+						<p>The teams will be given a labelled dataset and are expected to train the ML model to identify and label the given image.</p>
+							<ul>
+							<li>Aim : To train the ML model on the given dataset.
+							<li>Model Objective : Input - Picture, Output - Labelled Image.</li>
+							</ul>
+					</div>
+				</div>
+			</section>
+			 <!--Four-->
+            		<!-- <section id="four" class="wrapper alt spotlight style4">
+                		<div class="inner">
+                    			<div class="content">
+                   			 <h2 class="major">Contact:</h2>
+					 <ul>
+						<li>Mail : <a class="edit1" href="mailto:ai.ml.dl.net@gmail.com" class="symbol" target="_blank"><span class="edit">ai.ml.dl.net@gmail.com</span></a></li>
+						<li>Github : <a class="edit1" href="https://github.com/neuraldotnet" class="symbol" target="_blank"><span class="edit">NeuralDotNet</span></a></li>
+					</ul>
+                    			</div>
+                		</div>
+            		</section> -->
 			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://www.twitter.com/NeuralDotNet" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/NeuralDotNet" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:ai.ml.dl.net@gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; NeuralDotNet. All rights reserved.</li><li><span class="icon fa-code"></span> with <span class="icon fa-heart"></span> by <a href="https://github.com/NeuralDotNet">NeuralDotNet</a></a>
-					</ul>
-				</footer>
+			<section id="footer">
+						<div class="inner">
+							<h4 class="major"><a href="https://github.com/neuraldotnet" class="symbol" target="_blank"><span class="icon fa-code"></span> with <span class="icon fa-heart"></span> by NeuralDotNet</a></h4>
+						</div>
+					</section>
 
-		</div>
+			</div>
 
-		<!-- Scripts -->
+			<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+</body>
 
-	</body>
 </html>
