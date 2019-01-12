@@ -1,6 +1,6 @@
 ## About Us
 
-NeuralDotNet is a student research group focused on algorithms implementing artificial intelligence. 
+NeuralDot is a student research group focused on algorithms implementing artificial intelligence. 
 
 We pick up interesting papers to break them down and understand them thoroughly. 
 
@@ -10,4 +10,4 @@ We occasionally conduct sessions wherein we teach and implement concepts to acqu
 
 ## Contact
 
-You can reach out to us at [@neuraldotnet](https://twitter.com/neuraldotnet) on Twitter.
+You can reach out to us at [@neuraldot](https://twitter.com/neuraldot) on Twitter.
