@@ -1,10 +1,8 @@
 ## About Us
 
-NeuralDot is a student research group focused on algorithms implementing artificial intelligence. 
+We are a research group. 
 
-We pick up interesting papers to break them down and understand them thoroughly. 
-
-Our aim is to learn and discover the models and practices used by cutting-edge research projects around the world. 
+Our aim is to discover and learn the models and practices used in cutting-edge research projects around the world by implementing research papers. 
 
 We occasionally conduct sessions wherein we teach and implement concepts to acquaint newcomers to the field of data science.
 
