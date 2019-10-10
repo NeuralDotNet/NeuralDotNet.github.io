@@ -1,6 +1,6 @@
 ## About Us
 
-We are a research group. 
+We are a student research group. 
 
 Our aim is to discover and learn the models and practices used in cutting-edge research projects around the world by implementing research papers. 
 
