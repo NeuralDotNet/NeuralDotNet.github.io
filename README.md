@@ -2,7 +2,7 @@
 
 We are a student research group. 
 
-Our aim is to discover and learn the models and practices used in cutting-edge research projects around the world by implementing research papers. 
+Our aim is to discover and learn cutting-edge models and architectures used in Machine Learning research projects by implementing and presenting research papers. 
 
 We conduct sessions wherein we teach and implement concepts to acquaint newcomers to the field of data science.
 
